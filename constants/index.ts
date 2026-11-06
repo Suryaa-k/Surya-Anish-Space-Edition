@@ -85,11 +85,16 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "Book Finder",
-    category: "MERN",
-    description: "A React project for searching and discovering books.",
-    tech: ["React"],
-    link: PROFILE.github,
+      title: "Book Finder",
+      category: "MERN",
+      description:
+        "A React app that lets users search for books and browse the results in a clean, responsive interface.",
+      highlights: [
+        "Search box that returns book results for a user's query",
+        "Card-based layout for quickly scanning results",
+        "Component-based React architecture with reusable UI pieces",
+    ],
+      tech: ["React", "JavaScript", "CSS3"],
   },
   {
     title: "Detection of Cyber Attacks in Networks using ML Techniques",
@@ -106,11 +111,16 @@ export const PROJECTS: Project[] = [
     link: PROFILE.github,
   },
   {
-    title: "Surya Anish K – Main Portfolio",
+        title: "Surya Anish K – Main Portfolio",
     category: "Portfolios",
-    description: "My main developer portfolio.",
-    tech: ["Portfolio"],
-    link: PROFILE.portfolio,
+    description:
+      "My main developer portfolio – one place for my projects, skills, education, achievements and contact details.",
+    highlights: [
+      "Dedicated sections for projects, skills, education, achievements and certifications",
+      "Responsive layout that works across desktop and mobile",
+      "Contact section with links to my social profiles",
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript"],
   },
   {
     title: "Detection of Parkinson's Disease through Analysis of Image and Speech Data using AI/ML",
@@ -127,92 +137,173 @@ export const PROJECTS: Project[] = [
     link: PROFILE.github,
   },
   {
-    title: "Tarun Varma's Portfolio",
+        title: "Tarun Varma's Portfolio",
     category: "Portfolios",
-    description: "A friend's portfolio – Tarun Varma.",
-    tech: ["Portfolio"],
+    description:
+      "A portfolio website for my friend Tarun Varma, presenting his skills, projects and background.",
+    highlights: [
+      "Clean layout that highlights his work and skills",
+      "Responsive design for desktop and mobile",
+      "Contact details and social links in one place",
+    ],
+    tech: ["Portfolio", "UI/UX Design"],
   },
   {
-    title: "Weather Forecast",
+        title: "Weather Forecast",
     category: "MERN",
-    description: "A React app that fetches live forecasts from a weather API.",
-    tech: ["React", "Weather API"],
-    link: PROFILE.github,
+    description:
+      "A React app that fetches live weather data from a weather API and shows current conditions for any city a user searches.",
+    highlights: [
+      "Search by city name",
+      "Live data fetched from a weather API",
+      "Clear, responsive display of temperature and conditions",
+    ],
+    tech: ["React", "Weather API", "JavaScript", "CSS3"],
   },
   {
-    title: "Recipe Ideas",
+        title: "Recipe Ideas",
     category: "MERN",
-    description: "A front-end React project for browsing recipe ideas.",
-    tech: ["React", "Front-End"],
-    link: PROFILE.github,
+    description:
+      "A front-end React app that suggests recipe ideas and lets users browse dishes at a glance.",
+    highlights: [
+      "Browsable recipe cards",
+      "Reusable React components",
+      "Responsive layout for desktop and mobile",
+    ],
+    tech: ["React", "JavaScript", "CSS3"],
   },
   {
-    title: "Surya Anish K 2.0",
+        title: "Surya Anish K 2.0",
     category: "Portfolios",
-    description: "Portfolio 2.0 – the second iteration of my developer portfolio.",
-    tech: ["Portfolio"],
-    link: PROFILE.github,
+    description:
+      "Portfolio 2.0 – the second iteration of my developer portfolio, with a refreshed design and expanded sections.",
+    highlights: [
+      "Redesigned look and feel compared to the first version",
+      "Updated project showcase and skills sections",
+      "Responsive across screen sizes",
+    ],
+    tech: ["Portfolio", "UI/UX Design"],
   },
   {
-    title: "Media Management System",
+        title: "Media Management System",
     category: "MERN",
-    description: "A MERN stack project for managing media.",
+    description:
+      "A full-stack MERN application for uploading, organising and managing media files.",
+    highlights: [
+      "MongoDB database for storing media records",
+      "Express and Node.js REST API on the back end",
+      "React front end for browsing and managing media",
+    ],
     tech: ["MongoDB", "Express", "React", "Node.js"],
-    link: PROFILE.github,
   },
   {
-    title: "Surya Anish K 3.0",
+        title: "Surya Anish K 3.0",
     category: "Portfolios",
-    description: "Portfolio 3.0 – the third iteration of my developer portfolio.",
-    tech: ["Portfolio"],
-    link: PROFILE.github,
+    description:
+      "Portfolio 3.0 – the third iteration of my developer portfolio, with a more polished design and richer content.",
+    highlights: [
+      "Further refined design over Portfolio 2.0",
+      "Expanded sections for projects, skills and achievements",
+      "Responsive across screen sizes",
+    ],
+    tech: ["Portfolio", "UI/UX Design"],
   },
   {
-    title: "E-Learning Platform",
+        title: "E-Learning Platform",
     category: "MERN",
-    description: "A full-stack web application for online learning.",
+    description:
+      "A full-stack web application for online learning, where learners can browse and access course content.",
+    highlights: [
+      "Course browsing through a learner-friendly interface",
+      "Back-end APIs connected to a database",
+      "Responsive front end for desktop and mobile",
+    ],
     tech: ["Full-Stack"],
-    link: PROFILE.github,
   },
   {
-    title: "Adithyaa Krishna's Portfolio",
+        title: "Adithyaa Krishna's Portfolio",
     category: "Portfolios",
-    description: "A friend's portfolio – Adithyaa Krishna.",
-    tech: ["Portfolio"],
+    description:
+      "A portfolio website for my friend Adithyaa Krishna, presenting his skills, projects and background.",
+    highlights: [
+      "Clean layout that highlights his work and skills",
+      "Responsive design for desktop and mobile",
+      "Contact details and social links in one place",
+    ],
+    tech: ["Portfolio", "UI/UX Design"],
   },
   {
-    title: "Password Manager",
+        title: "Password Manager",
     category: "Python",
-    description: "A secure password management app.",
+    description:
+      "A secure password management app for storing and retrieving credentials in one protected place.",
+    highlights: [
+      "Secure storage of saved credentials",
+      "Add, view, edit and delete saved entries",
+      "Simple, user-friendly interface",
+    ],
     tech: ["Security"],
-    link: PROFILE.github,
   },
   {
-    title: "Library Management System",
+        title: "Library Management System",
     category: "Python",
-    description: "A Django web application for managing a library.",
-    tech: ["Python", "Django"],
-    link: PROFILE.github,
+    description:
+      "A Django web application for managing a library's books and members.",
+    highlights: [
+      "Add, update and remove books in the catalogue",
+      "Manage members and track book issues and returns",
+      "Django ORM and admin for data management",
+    ],
+    tech: ["Python", "Django", "HTML5", "CSS3"],
   },
   {
-    title: "Skill Bridge",
+        title: "Skill Bridge",
     category: "Python",
-    description: "A Python-Django web application.",
+    description:
+      "A Python–Django web platform where students exchange skills, connecting people who want to learn with those who can teach.",
+    highlights: [
+      "User accounts and profiles listing the skills each student offers",
+      "Discovery of students to learn from or teach",
+      "Django back end with a database-backed data model",
+    ],
     tech: ["Python", "Django"],
-    link: PROFILE.github,
   },
   {
-    title: "Netflix Edition",
+        title: "Netflix Edition",
     category: "Portfolios",
-    description: "A special-edition portfolio.",
+    description:
+      "A special-edition portfolio themed after Netflix's streaming interface, presenting my work like a browsable catalogue.",
+    highlights: [
+      "Netflix-inspired layout and visual style",
+      "Projects presented as browsable rows",
+      "Responsive across screen sizes",
+    ],
     tech: ["Portfolio", "Special Edition"],
-    link: PROFILE.github,
   },
   {
-    title: "Prime Edition",
+        title: "Prime Edition",
     category: "Portfolios",
-    description: "A special-edition portfolio.",
+    description:
+      "A special-edition portfolio themed after Prime Video's streaming interface, presenting my work like a browsable catalogue.",
+    highlights: [
+      "Prime Video-inspired layout and visual style",
+      "Projects presented as browsable rows",
+      "Responsive across screen sizes",
+    ],
     tech: ["Portfolio", "Special Edition"],
+  },
+  {
+    title: "Space Edition",
+    category: "Portfolios",
+    description:
+      "A special-edition, space-themed portfolio built as a multi-page Next.js app, with an animated 3D starfield behind every page.",
+    highlights: [
+      "Animated 3D starfield background built with React Three Fiber and three.js",
+      "Separate pages for Home, Projects, Education & Skills, Achievements and Hire Me",
+      "Projects page with category tabs and automatic pagination",
+      "Contact form on the Hire Me page, with a fully responsive dark UI",
+    ],
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js"],
     link: PROFILE.github,
   },
 ];
